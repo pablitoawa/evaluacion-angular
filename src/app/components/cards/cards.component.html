@@ -1,0 +1,15 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @for (item of empleados; track item) {
+        <div class="col">
+            <div class="card">
+              <img src="{{item.picture.large}}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{item.name.first}} {{item.name.last}}</h5>
+                <p class="card-text">Ciudad: {{item.location.city}}</p>
+                <p class="card-text">Timezone: {{item.location.timezone.offset}}</p>
+                <p class="card-text">Descripción: {{item.location.timezone.description}}</p>
+              </div>
+            </div>
+          </div>
+    }
+  </div>

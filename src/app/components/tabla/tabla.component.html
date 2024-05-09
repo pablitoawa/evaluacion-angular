@@ -1,0 +1,27 @@
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Marca</th>
+        <th>Color</th>
+        <th>Precio</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(item of autos; track item){
+      <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.marca}}</td>
+        <td>{{item.color}}</td>
+        <td>${{item.precio}}</td>
+        <td>
+          <button style="margin-right:10px;" class="btn btn-warning" [routerLink]="['/editar', item.id]">Editar</button>
+
+          <button class="btn btn-danger" (click)="eliminar(item.id)">Eliminar</button>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+  

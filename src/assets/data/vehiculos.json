@@ -1,0 +1,68 @@
+{
+  "vehiculos": [
+    {
+      "id": "ABC123",
+      "marca": "Toyota",
+      "color": "Rojo",
+      "imagen": "https://www.toyota.com.ec//admin/sites/default/files/2022-07/toyota-rav4.png",
+      "precio": 25000,
+      "descripcion": "Sedán compacto con buen rendimiento de combustible."
+    },
+    {
+      "id": "DEF456",
+      "marca": "Honda",
+      "color": "Azul",
+      "imagen": "https://st1.uvnimg.com/34/1f/e01a9a7a47659f28fff3a5177ef1/honda-accord-B.jpg",
+      "precio": 18500,
+      "descripcion": "Auto deportivo económico y confiable."
+    },
+    {
+      "id": "GHI789",
+      "marca": "Ford",
+      "color": "Negro",
+      "imagen": "https://s1.1zoom.me/big0/645/388007-svetik.jpg",
+      "precio": 22000,
+      "descripcion": "Camioneta robusta y espaciosa para trabajo pesado."
+    },
+    {
+      "id": "JKL012",
+      "marca": "Chevrolet",
+      "color": "Blanco",
+      "imagen": "https://www.chevrolet.com.ec/content/dam/chevrolet/south-america/ecuador/espanol/index/crossovers-and-suvs/2021-new-chevrolet-groove/mov/02-images/2022-colorizer-groove-blanco.jpg",
+      "precio": 20000,
+      "descripcion": "Auto familiar con amplio espacio interior."
+    },
+    {
+      "id": "MNO345",
+      "marca": "Nissan",
+      "color": "Gris",
+      "imagen": "https://www-europe.nissan-cdn.net/content/dam/Nissan/es/vehicles/Qashqai/coloresdimensiones/20TDIEU_QQ_Packshot_Tekna%2B-3-4front_LHD_pace1201.jpg.ximg.l_12_m.jpg.ximg.l_12_m.smart.jpg",
+      "precio": 17800,
+      "descripcion": "Vehículo compacto y económico para uso urbano."
+    },
+    {
+      "id": "PQR678",
+      "marca": "Hyundai",
+      "color": "Rojo",
+      "imagen": "https://www.motor16.com/wp-content/uploads/2022/02/3927_K4ovkR0t7N3xE-p.jpg",
+      "precio": 16500,
+      "descripcion": "Auto de bajo costo con buenas características."
+    },
+    {
+      "id": "STU901",
+      "marca": "Kia",
+      "color": "Azul",
+      "imagen": "https://s3.amazonaws.com/kia-simotor/360_rio0000_HB_azure_blue_805e18d5c7.png",
+      "precio": 17600,
+      "descripcion": "Vehículo económico con diseño atractivo."
+    },
+    {
+      "id": "VWX234",
+      "marca": "Mazda",
+      "color": "Negro",
+      "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_2568ea473889485d95fa946ef52694f0.jpg",
+      "precio": 19000,
+      "descripcion": "Auto deportivo con manejo ágil y potente."
+    }
+  ]
+}

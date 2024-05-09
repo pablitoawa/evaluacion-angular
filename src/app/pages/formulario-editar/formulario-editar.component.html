@@ -1,0 +1,40 @@
+<h2 class="text-center">Editar</h2>
+<div style="width: 90%; margin: 0 auto">
+  <form (ngSubmit)="editar(formulario)" #formulario="ngForm">
+    <label>Ingresar Placa de Vehiculo</label>
+    <input type="text" name="id" [(ngModel)]="id" class="form-control" />
+
+    <label>Ingresar Marca</label>
+    <input type="text" name="marca" [(ngModel)]="marca" class="form-control" />
+
+    <label>Ingresar Color</label>
+    <input type="text" name="color" [(ngModel)]="color" class="form-control" />
+
+    <label>Ingresar Url Imagen</label>
+    <input
+      type="text"
+      name="imagen"
+      [(ngModel)]="imagen"
+      class="form-control"
+    />
+
+    <label>Ingresar Precio</label>
+    <input
+      type="number"
+      name="precio"
+      [(ngModel)]="precio"
+      class="form-control"
+    />
+
+    <label>Ingresar Descripcion</label>
+    <input
+      type="text"
+      name="descripcion"
+      [(ngModel)]="descripcion"
+      class="form-control"
+    />
+
+    <br />
+    <button type="submit" class="btn btn-success">Guardar</button>
+  </form>
+</div>
